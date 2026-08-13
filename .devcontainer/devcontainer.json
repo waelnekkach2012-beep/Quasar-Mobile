@@ -1,0 +1,18 @@
+{
+  "name": "Quasar Mobile Dev Env",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.java-pack",
+        "th3 IOError.java-dependencies"
+      ]
+    }
+  },
+  "forwardPorts": [3000, 8080],
+  "workspaceFolder": "/workspace",
+  "postCreateCommand": "echo 'Codespace prêt !' && npm install -g yarn",
+  "remoteUser": "vscode"
+}
