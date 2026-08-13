@@ -1,0 +1,23 @@
+# Ignorer les dépendances Node.js
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Fichiers temporaires ou spécifiques à l'OS
+.DS_Store
+Thumbs.db
+
+# Fichiers de configuration locaux (si vous en utilisez)
+.env
+
+# Fichiers de build Android
+build/
+*.apk
+*.aab
+
+# Fichiers IDE
+.idea/
+*.iml
+.vscode/
